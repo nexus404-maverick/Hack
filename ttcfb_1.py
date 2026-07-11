@@ -300,7 +300,7 @@ else:
     for tokens in token_json:
         if len(tokens) > 5:
             stt_token += 1
-            print(f'{thanh}{luc}Account {do}[{vang}{stt_token}{do}] {luc}Để Chạy Tài Khoản: {vang}{tokens.split('|')[1]}')
+            print(f'{thanh}{luc}Account {do}[{vang}{stt_token}{do}] {luc}Để Chạy Tài Khoản: {vang}{tokens.split("|")[1]}')
     thanhngang(65)
     print(f'{thanh}{luc}Nhập {do}[{vang}1{do}] {luc}Chọn Acc TTC Để Chạy Tool')
     print(f'{thanh}{luc}Nhập {do}[{vang}2{do}] {luc}Nhập Access_Token TTC khác')
